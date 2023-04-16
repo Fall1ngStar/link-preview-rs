@@ -1,0 +1,21 @@
+[package]
+name = "link-preview-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-cors = "0.6.4"
+actix-web = "4.3.1"
+clap = { version = "4.2.2", features = ["derive"] }
+reqwest = "0.11.16"
+reqwest-middleware = "0.2.1"
+reqwest-tracing = "0.4.1"
+serde = { version = "1.0.160", features = ["derive"] }
+serde_json = "1.0.96"
+tl = "0.7.7"
+tracing = "0.1.37"
+tracing-actix-web = "0.7.4"
+tracing-subscriber = { version = "0.3.16", features = ["env-filter"] }
+url = { version = "2.3.1", features = ["serde"] }
